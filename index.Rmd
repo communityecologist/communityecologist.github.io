@@ -9,7 +9,7 @@ title: "Shinichi Tatsumi"
 knitr::include_graphics("image/head.png")
 ```
 
-```{r out.width='170px', out.extra='style="float:right; padding:20px"', echo=FALSE}
+```{r out.width='20%', out.extra='style="float:right; padding:20px"', echo=FALSE}
 knitr::include_graphics("image/img1.png")
 ```
 
@@ -18,15 +18,15 @@ Shinichi Tatsumi, Ph.D. &ensp;(辰巳晋一)
 &emsp; `r icons::fontawesome("briefcase")` &thinsp; Senior Researcher, Hokkaido Research Center, FFPRI  
 &emsp; `r icons::fontawesome("envelope")` &thinsp; community.ecologist at gmail dot com  
 
-Welcome to my research website. I am a community ecologist studying biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure. I am also interested in applying community ecology thoery to ecosystem management. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319) and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20).
+Welcome to my research website. I am a community ecologist studying changes in biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure and ecosystem functioning. I am also interested in applying ecological theory to ecosystem management under global change. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319) and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20).
 
+<div style="text-align: center;">
 [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?hl=ja&user=u4JoW-sAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"}
 &ensp; [<i class="ai ai-clarivate ai-2x"></i>](https://www.webofscience.com/wos/author/record/1641352){target="_blank"}
 &ensp; [<i class="ai ai-orcid ai-2x"></i>](https://orcid.org/0000-0002-1789-1685){target="_blank"}
 &ensp; [<i class="fab fa-twitter fa-2x"></i>](https://twitter.com/ShinichiTatsumi){target="_blank"}
 &ensp; [<i class="fab fa-github fa-2x"></i>](https://github.com/communityecologist){target="_blank"}
-
-\
+</div>
 
 ### Publications
 
@@ -108,9 +108,8 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 
 ##### **Books**
 
-```{r out.width='120px', out.extra='style="float:right; padding:10px"', echo=FALSE}
-knitr::include_graphics("image/book1.jpg")
-knitr::include_graphics("image/book2.jpg")
+```{r out.width='30%', out.extra='style="float:right; padding-left:20px"', echo=FALSE}
+knitr::include_graphics("image/books.png")
 ```
 
 
@@ -213,7 +212,9 @@ knitr::include_graphics("image/book2.jpg")
 
 ### 履歴書
 
-##### **職歴**
+* Research Mapは[こちら](https://researchmap.jp/shin1.ta23)
+
+##### 職歴
 * 2020–現在: 国立研究開発法人 森林総合研究所 北海道支所 主任研究員
 * 2019–2021: トロント大学 生物科学研究科 JSPS海外特別研究員
 * 2018–2020: 国立研究開発法人 森林総合研究所 北海道支所 研究員
@@ -223,12 +224,12 @@ knitr::include_graphics("image/book2.jpg")
 * 2014–2015: 横浜国立大学大学院 環境情報研究院 技術補佐員
 * 2012–2014: 東京大学大学院 農学生命科学研究科 JSPS特別研究員 DC2
 
-##### **学歴**
+##### 学歴
 * 2011–2014: 東京大学大学院 農学生命科学研究科 森林科学専攻 博士課程
 * 2009–2011: 東京大学大学院 農学生命科学研究科 森林科学専攻 修士課程
 * 2005–2009: 東京農工大学 農学部 地域生態システム学科
 
-##### **研究助成**
+##### 研究助成
 * 2022–2023: 林野庁 調査委託事業（分担）
 * 2021–2025: JSPS 科学研究費基金 若手研究（個人）
 * 2021–2022: スマート林業EZOモデル構築協議会 受託研究（分担）
@@ -243,7 +244,7 @@ knitr::include_graphics("image/book2.jpg")
 * 2012–2013: 東京大学 AGS研究助成（分担）
 * 2011–2012: 日本科学協会 笹川科学研究助成（個人）
 
-##### **賞罰**
+##### 賞罰
 * 2020: トロント大学 生物科学研究科 Postdoc Paper of the Year 2019
 * 2018: 第65回 日本生態学会 Best English Presentation Award
 * 2018: 日本生態学会 Ecological Research Paper Award 2017
@@ -255,8 +256,8 @@ knitr::include_graphics("image/book2.jpg")
 * 2012: 第123回 日本森林学会 学生ポスター賞
 * 2012: 平成23年度 日本科学協会 笹川科学研究奨励賞
 
-##### **委員**
-* 2022-現在: Journal of Forest Research 編集委員
-* 2020-現在: Ecological Solutions and Evidence 編集委員
-* 2020–2023: 日本生態学会 英語発表部会委員（’21年度 副部会長, ’22年度 部会長）
+##### 委員
+* 2022-現在: *Journal of Forest Research* 編集委員
+* 2020-現在: *Ecological Solutions and Evidence* 編集委員
+* 2020–2023: 日本生態学会 英語発表部会委員（21年度 副部会長, 22年度 部会長）
 * 2011–2012: 第32回 関東生態学関係修論発表会委員

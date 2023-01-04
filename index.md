@@ -7,22 +7,22 @@ title: "Shinichi Tatsumi"
 
 <img src="image/head.png" width="100%" />
 
-<img src="image/img1.png" width="170px" style="float:right; padding:20px" />
+<img src="image/img1.png" width="20%" style="float:right; padding:20px" />
 
 Shinichi Tatsumi, Ph.D. &ensp;(辰巳晋一)
 
 &emsp; <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg> &thinsp; Senior Researcher, Hokkaido Research Center, FFPRI  
 &emsp; <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg> &thinsp; community.ecologist at gmail dot com  
 
-Welcome to my research website. I am a community ecologist studying biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure. I am also interested in applying community ecology thoery to ecosystem management. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319) and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20).
+Welcome to my research website. I am a community ecologist studying changes in biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure and ecosystem functioning. I am also interested in applying ecological theory to ecosystem management under global change. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319) and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20).
 
+<div style="text-align: center;">
 [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?hl=ja&user=u4JoW-sAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"}
 &ensp; [<i class="ai ai-clarivate ai-2x"></i>](https://www.webofscience.com/wos/author/record/1641352){target="_blank"}
 &ensp; [<i class="ai ai-orcid ai-2x"></i>](https://orcid.org/0000-0002-1789-1685){target="_blank"}
 &ensp; [<i class="fab fa-twitter fa-2x"></i>](https://twitter.com/ShinichiTatsumi){target="_blank"}
 &ensp; [<i class="fab fa-github fa-2x"></i>](https://github.com/communityecologist){target="_blank"}
-
-\
+</div>
 
 ### Publications
 
@@ -104,7 +104,7 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 
 ##### **Books**
 
-<img src="image/book1.jpg" width="120px" style="float:right; padding:10px" /><img src="image/book2.jpg" width="120px" style="float:right; padding:10px" />
+<img src="image/books.png" width="30%" style="float:right; padding-left:20px" />
 
 
 * **辰巳晋一**（2021）「垂直（階層）構造」. 日本森林学会（編）. [森林学の百科事典](https://www.maruzen-publishing.co.jp/item/?book_no=303353){target="_blank"}. 丸善出版. 42–43頁.
@@ -206,7 +206,9 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 
 ### 履歴書
 
-##### **職歴**
+* Research Mapは[こちら](https://researchmap.jp/shin1.ta23)
+
+##### 職歴
 * 2020–現在: 国立研究開発法人 森林総合研究所 北海道支所 主任研究員
 * 2019–2021: トロント大学 生物科学研究科 JSPS海外特別研究員
 * 2018–2020: 国立研究開発法人 森林総合研究所 北海道支所 研究員
@@ -216,12 +218,12 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 * 2014–2015: 横浜国立大学大学院 環境情報研究院 技術補佐員
 * 2012–2014: 東京大学大学院 農学生命科学研究科 JSPS特別研究員 DC2
 
-##### **学歴**
+##### 学歴
 * 2011–2014: 東京大学大学院 農学生命科学研究科 森林科学専攻 博士課程
 * 2009–2011: 東京大学大学院 農学生命科学研究科 森林科学専攻 修士課程
 * 2005–2009: 東京農工大学 農学部 地域生態システム学科
 
-##### **研究助成**
+##### 研究助成
 * 2022–2023: 林野庁 調査委託事業（分担）
 * 2021–2025: JSPS 科学研究費基金 若手研究（個人）
 * 2021–2022: スマート林業EZOモデル構築協議会 受託研究（分担）
@@ -236,7 +238,7 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 * 2012–2013: 東京大学 AGS研究助成（分担）
 * 2011–2012: 日本科学協会 笹川科学研究助成（個人）
 
-##### **賞罰**
+##### 賞罰
 * 2020: トロント大学 生物科学研究科 Postdoc Paper of the Year 2019
 * 2018: 第65回 日本生態学会 Best English Presentation Award
 * 2018: 日本生態学会 Ecological Research Paper Award 2017
@@ -248,8 +250,8 @@ Welcome to my research website. I am a community ecologist studying biodiversity
 * 2012: 第123回 日本森林学会 学生ポスター賞
 * 2012: 平成23年度 日本科学協会 笹川科学研究奨励賞
 
-##### **委員**
-* 2022-現在: Journal of Forest Research 編集委員
-* 2020-現在: Ecological Solutions and Evidence 編集委員
-* 2020–2023: 日本生態学会 英語発表部会委員（’21年度 副部会長, ’22年度 部会長）
+##### 委員
+* 2022-現在: *Journal of Forest Research* 編集委員
+* 2020-現在: *Ecological Solutions and Evidence* 編集委員
+* 2020–2023: 日本生態学会 英語発表部会委員（21年度 副部会長, 22年度 部会長）
 * 2011–2012: 第32回 関東生態学関係修論発表会委員

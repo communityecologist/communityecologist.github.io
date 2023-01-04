@@ -198,8 +198,8 @@ knitr::include_graphics("image/books.png")
 * 2012: Sasakawa Scientific Research Award, Japan Science Society
 
 ##### **Academic Service**
-* 2022–present: Editorial Board, [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20)
-* 2020–present: Associate Editor, [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319)
+* 2022–present: Editorial Board, [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"}
+* 2020–present: Associate Editor, [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"}
 * 2020–2023: Committee member, English Session, Ecological Society of Japan
 * 2011–2012: Committee member, Master-theses Conference, ESJ Kanto
 
@@ -212,7 +212,7 @@ knitr::include_graphics("image/books.png")
 
 ### 履歴書
 
-* Research Mapは[こちら](https://researchmap.jp/shin1.ta23)
+* Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}
 
 ##### 職歴
 * 2020–現在: 国立研究開発法人 森林総合研究所 北海道支所 主任研究員

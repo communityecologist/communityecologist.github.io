@@ -9,7 +9,7 @@ title: "Shinichi Tatsumi"
 knitr::include_graphics("image/head.png")
 ```
 
-```{r out.width='20%', out.extra='style="float:right; padding:20px"', echo=FALSE}
+```{r out.width='22%', out.extra='style="float:right; padding:2%"', echo=FALSE}
 knitr::include_graphics("image/img1.png")
 ```
 
@@ -108,7 +108,7 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 ##### **Books**
 
-```{r out.width='30%', out.extra='style="float:right; padding-left:20px"', echo=FALSE}
+```{r out.width='30%', out.extra='style="float:right; padding-left:2%"', echo=FALSE}
 knitr::include_graphics("image/books.png")
 ```
 

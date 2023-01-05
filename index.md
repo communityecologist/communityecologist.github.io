@@ -7,7 +7,7 @@ title: "Shinichi Tatsumi"
 
 <img src="image/head.png" width="100%" />
 
-<img src="image/img1.png" width="20%" style="float:right; padding:20px" />
+<img src="image/img1.png" width="22%" style="float:right; padding:2%" />
 
 Shinichi Tatsumi, Ph.D. &ensp;(辰巳晋一)
 
@@ -104,7 +104,7 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 ##### **Books**
 
-<img src="image/books.png" width="30%" style="float:right; padding-left:20px" />
+<img src="image/books.png" width="30%" style="float:right; padding-left:2%" />
 
 
 * **辰巳晋一**（2021）「垂直（階層）構造」. 日本森林学会（編）. [森林学の百科事典](https://www.maruzen-publishing.co.jp/item/?book_no=303353){target="_blank"}. 丸善出版. 42–43頁.

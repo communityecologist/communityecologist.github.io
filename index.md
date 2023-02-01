@@ -14,7 +14,7 @@ Shinichi Tatsumi, Ph.D. &ensp;(辰巳晋一)
 &emsp; <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg> &thinsp; Senior Researcher, Hokkaido Research Center, FFPRI  
 &emsp; <svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg> &thinsp; community.ecologist at gmail dot com  
 
-Welcome to my research website. I am a community ecologist studying changes in biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure and ecosystem functioning. I am also interested in applying ecological theory to ecosystem management under global change. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319) and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20).
+Welcome to my research website. I am a community ecologist studying changes in biodiversity across space and time. I currently work on numerical methods to disentangle the complexities underlying ecological community structure and ecosystem functioning. I am also interested in applying ecological theory to ecosystem management under global change. I currently serve as an associate editor for [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"} and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"}.
 
 <div style="text-align: center;">
 [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?hl=ja&user=u4JoW-sAAAAJ&view_op=list_works&sortby=pubdate){target="_blank"}
@@ -191,16 +191,16 @@ Welcome to my research website. I am a community ecologist studying changes in b
 * 2012: Student Poster Award, Japan Forest Society
 * 2012: Sasakawa Scientific Research Award, Japan Science Society
 
-##### **Academic Service**
+##### **Academic Services**
 * 2022–present: Editorial Board, [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"}
 * 2020–present: Associate Editor, [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"}
 * 2020–2023: Committee member, English Session, Ecological Society of Japan
 * 2011–2012: Committee member, Master-theses Conference, ESJ Kanto
 
-##### **Reviewer**
-* Annals of Forest Science, Biological Invasions, Biological Reviews, Canadian Journal of Forest Research (2), Conservation Science and Practice (4), Diversity and Distributions, Ecography (3), Ecological Processes, Ecological Research (2), Ecology (3), Ecology and Evolution, Ecology Letters (2), Ecosphere, Forest Ecology and Management (3), Forestry Chronicle, Forests (4), Frontiers in Plant Science, Functional Ecology, Global Ecology and Biogeography, Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of Biogeography, Journal of Ecology, Journal of Forest Research (2), Journal of Mountain Science, Journal of Sustainable Forestry, Journal of Vegetation Science (5), Methods in Ecology and Evolution, Oecologia (3), Plos One, Population Ecology, Scientific Data, Scientific Reports (2), Swiss National Science Foundation, Trees Structure and Function, 森林計画学会誌, 北方森林研究
+##### **Reviewing**
+* Annals of Forest Science, Biological Invasions, Biological Reviews, Canadian Journal of Forest Research (2), Conservation Science and Practice (4), Diversity and Distributions, Ecography (3), Ecological Processes, Ecological Research (2), Ecology (3), Ecology and Evolution, Ecology Letters (2), Ecosphere, Forest Ecology and Management (3), Forestry Chronicle, Forests (4), Frontiers in Plant Science, Functional Ecology, Global Ecology and Biogeography, Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of Biogeography, Journal of Ecology, Journal of Forest Research (2), Journal of Mountain Science, Journal of Sustainable Forestry, Journal of Vegetation Science (5), Landscape and Ecological Engineering, Methods in Ecology and Evolution, Oecologia (3), Plos One, Population Ecology, Scientific Data, Scientific Reports (2), Swiss National Science Foundation, Trees Structure and Function, 森林計画学会誌, 北方森林研究
 
-* Review-publication ratio: **5.17** (= 62 papers reviewed / 12 first-author papers)
+* Review-publication ratio: **5.25** (= 63 manuscripts reviewed / 12 first-author papers)
 
 \
 

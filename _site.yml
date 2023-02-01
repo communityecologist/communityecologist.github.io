@@ -8,4 +8,6 @@ output:
     self_contained: yes
     md_extentions: null
     theme: flatly
+    includes:
+      in_header: "header.html"
 output_dir: "docs"

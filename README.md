@@ -1,1 +1,1 @@
-[Shinichi Tatsumi's web site](https://communityecologist.github.io/home/)
+[Shinichi Tatsumi's web site](https://communityecologist.github.io/)

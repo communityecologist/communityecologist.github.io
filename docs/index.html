@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Shinichi Tatsumi</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="image/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Shinichi Tatsumi</h1>
+
+</div>
+
+
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"></p>
+<p><img src="image/head.png" width="100%" /></p>
+<p><img src="image/img1.png" width="22%" style="float:right; padding:2%" /></p>
+<p>Shinichi Tatsumi, Ph.D.  (辰巳晋一)</p>
+<p> 
+<svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>
+  Senior Researcher, Hokkaido Research Center, FFPRI<br />
+ 
+<svg viewBox="0 0 512 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>
+  community.ecologist at gmail dot com</p>
+<p>Welcome to my research website. I am a community ecologist studying
+changes in biodiversity across space and time. I currently work on
+numerical methods to disentangle the complexities underlying ecological
+community structure and ecosystem functioning. I am also interested in
+applying ecological theory to ecosystem management under global change.
+I currently serve as an associate editor for <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/13652745"
+target="_blank"><em>Journal of Ecology</em></a>, <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/26888319"
+target="_blank"><em>Ecological Solutions and Evidence</em></a>, and <a
+href="https://www.tandfonline.com/journals/tjfr20"
+target="_blank"><em>Journal of Forest Research</em></a>.</p>
+<div style="text-align: center;">
+<p><a
+href="https://scholar.google.co.jp/citations?hl=ja&amp;user=u4JoW-sAAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
+target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>   <a
+href="https://www.webofscience.com/wos/author/record/1641352"
+target="_blank"><i class="ai ai-clarivate ai-2x"></i></a>   <a
+href="https://orcid.org/0000-0002-1789-1685"
+target="_blank"><i class="ai ai-orcid ai-2x"></i></a>   <a
+href="https://twitter.com/ShinichiTatsumi"
+target="_blank"><i class="fab fa-twitter fa-2x"></i></a>   <a
+href="https://github.com/communityecologist"
+target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+</div>
+<div id="publications" class="section level3">
+<h3>Publications</h3>
+<div id="preprints" class="section level5">
+<h5><strong>Preprints</strong></h5>
+<ul>
+<li>Iritani R, Ontiveros VJ, Alonso D, Capitan JA, Godsoe W,
+<strong>Tatsumi S</strong> (2022) Jaccard dissimilarity in stochastic
+community models based on the species-independence assumption. <a
+href="https://www.biorxiv.org/content/10.1101/2022.12.13.520233v2"
+target="_blank"><em>bioRxiv</em></a>.</li>
+</ul>
+</div>
+<div id="peer-reviewed-articles" class="section level5">
+<h5><strong>Peer-reviewed Articles</strong></h5>
+<p> 2023</p>
+<ul>
+<li><strong>Tatsumi S</strong>, Yamaguchi K, Furuya N (2023)
+ForestScanner: a mobile application for measuring and mapping trees with
+LiDAR-equipped iPhone and iPad. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13900"
+target="_blank"><em>Methods in Ecology and Evolution</em></a>. in press.
+<a href="pdf/Tatsumi_2023_MethodsEcolEvol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></li>
+</ul>
+<p> 2022</p>
+<ul>
+<li><strong>Tatsumi S</strong>, Iritani R, Cadotte MW (2022)
+Partitioning the temporal changes in abundance-based beta diversity into
+loss and gain components. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13921"
+target="_blank"><em>Methods in Ecology and Evolution</em></a> 13(9):
+2042–2048. <a href="pdf/Tatsumi_2022_MethodsEcolEvol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></li>
+</ul>
+<p> 2021</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Iritani R, Cadotte MW (2021) Temporal
+changes in spatial variation: partitioning the extinction and
+colonisation components of beta diversity. <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/ele.13720"
+target="_blank"><em>Ecology Letters</em></a> 24(5): 1063–1072. <a
+href="pdf/Tatsumi_2021_EcolLett.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p><strong>Tatsumi S</strong>, Matsuoka S, Fujii S, Makoto K, Osono
+T, Isbell F, Mori AS (2021) Prolonged impacts of past agriculture and
+ungulate overabundance on soil fungal communities in restored forests.
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/edn3.198"
+target="_blank"><em>Environmental DNA</em></a> 3(5): 930–939. <a
+href="pdf/Tatsumi_2021_EnvironDNA.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Suzuki KF, Kobayashi Y, Seidl R, Senf C, <strong>Tatsumi
+S</strong>, Koide D, Azuma WA, Higa M, Koyanagi TF, Qian S, Kusano Y,
+Matsubayashi R, Mori AS (2021) The potential role of an alien tree
+species in supporting forest restoration: lessons from Shiretoko
+National Park, Japan. <a
+href="https://www.sciencedirect.com/science/article/pii/S0378112721003418?via%3Dihub"
+target="_blank"><em>Forest Ecology and Management</em></a> 493: 119253.
+<a href="pdf/Suzuki_2021_ForEcolManage.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Sookhan N, Lorenzo A, <strong>Tatsumi S</strong>, Yuen M, MacIvor
+JS (2021) Linking bacterial diversity to floral identity in the bumble
+bee pollen basket. <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1002/edn3.165"
+target="_blank"><em>Environmental DNA</em></a> 3(3): 669–680. <a
+href="pdf/Sookhan_2021_EnvironDNA.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2020</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Strengbom J, Čugunovs M, Kouki J
+(2020) Partitioning the colonization and extinction components of beta
+diversity across disturbance gradients. <a
+href="https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3183"
+target="_blank"><em>Ecology</em></a> 101(12): e03183. <a
+href="pdf/Tatsumi_2020_Ecology.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p><strong>Tatsumi S</strong> (2020) Tree diversity effects on
+forest productivity increase through time because of spatial
+partitioning. <a
+href="https://forestecosyst.springeropen.com/articles/10.1186/s40663-020-00238-z"
+target="_blank"><em>Forest Ecosystems</em></a> 7: 24. <a
+href="pdf/Tatsumi_2020_ForEcosyst.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Malloch B, <strong>Tatsumi S</strong>, Seibold S, Cadotte MW,
+MacIvor JS (2020) Urbanization and plant invasion alter the structure of
+litter microarthropod communities. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2656.13311"
+target="_blank"><em>Journal of Animal Ecology</em></a> 89(11):
+2496–2507. <a href="pdf/Malloch_2020_JAnimEcol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2019</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Cadotte MW, Mori AS (2019)
+Individual-based models of community assembly: neighborhood competition
+drives phylogenetic community structure. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/1365-2745.13074"
+target="_blank"><em>Journal of Ecology</em></a> 107(2): 735–746. <a
+href="pdf/Tatsumi_2019_JEcol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Cadotte MW, Carboni M, Si X, <strong>Tatsumi S</strong> (2019) Do
+traits and phylogeny support congruent community diversity patterns and
+assembly inferences? <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2745.13247"
+target="_blank"><em>Journal of Ecology</em></a> 107(5): 2065–2077. <a
+href="pdf/Cadotte_2019_JEcol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2018</p>
+<ul>
+<li>Pasanen H, Junninen K, Boberg J, <strong>Tatsumi S</strong>, Stenlid
+J, Kouki J (2018) Life after tree death: does restored dead wood host
+different fungal communities to natural woody substrates? <a
+href="https://www.sciencedirect.com/science/article/pii/S0378112717306448"
+target="_blank"><em>Forest Ecology and Management</em></a> 409: 863–871.
+<a href="pdf/Pasanen_2018_ForEcolManage.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></li>
+</ul>
+<p> 2017</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Ohgue T, Azuma A, Tuovinen V, Imada
+Y, Mori AS, Thor G, Ranlund Å (2017) Tree hollows can affect epiphyte
+species composition. <a
+href="https://link.springer.com/article/10.1007/s11284-017-1468-x"
+target="_blank"><em>Ecological Research</em></a> 32(4): 503–509. <a
+href="pdf/Tatsumi_2017_EcolRes.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Mori AS, <strong>Tatsumi S</strong>, Gustafsson L (2017)
+Landscape properties affect biodiversity response to retention
+approaches in forestry. <a
+href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.12888"
+target="_blank"><em>Journal of Applied Ecology</em></a> 54(6):
+1627–1637. <a href="pdf/Mori_2017_JApplEcol.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2016</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Owari T, Mori AS (2016) Estimating
+competition coefficients in tree communities: a hierarchical Bayesian
+approach to neighborhood analysis. <a
+href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.1273"
+target="_blank"><em>Ecosphere</em></a> 7(3): e01273. <a
+href="pdf/Tatsumi_2016_Ecosphere.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Nishizawa K, <strong>Tatsumi S</strong>, Kitagawa R, Mori AS
+(2016) Deer herbivory affects the functional diversity of forest floor
+plants via changes in competition-mediated assembly rules. <a
+href="https://link.springer.com/article/10.1007/s11284-016-1367-6"
+target="_blank"><em>Ecological Research</em></a> 31(4): 569–578. <a
+href="pdf/Nishizawa_2016_EcolRes.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Owari T, Okamura K, Fukushi K, Kasahara H, <strong>Tatsumi
+S</strong> (2016) Single-tree management for high-value timber species
+in a cool-temperate mixed forest in northern Japan. <a
+href="https://www.tandfonline.com/doi/full/10.1080/21513732.2016.1163734"
+target="_blank"><em>IJBSESM</em></a> 12(1–2): 74–82. <a
+href="pdf/Owari_2016_IJBSESM.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2015</p>
+<ul>
+<li><p>Mori AS, Qian S, <strong>Tatsumi S</strong> (2015) Academic
+inequality through the lens of community ecology: a meta-analysis. <a
+href="https://peerj.com/articles/1457/"
+target="_blank"><em>PeerJ</em></a> 3: e1457. <a
+href="pdf/Mori_2015_PeerJ.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p>Owari T, <strong>Tatsumi S</strong>, Ning L, Yin M (2015) Height
+growth of Korean pine seedlings planted under strip-cut larch
+plantations in northeast China. <a
+href="https://www.hindawi.com/journals/ijfr/2015/178681/"
+target="_blank"><em>International Journal of Forestry Research</em></a>:
+Art 178681. <a href="pdf/Owari_2015_IntJForRes.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2014</p>
+<ul>
+<li><p><strong>Tatsumi S</strong>, Owari T, Yin M, Ning L (2014)
+Neighborhood analysis of underplanted Korean pine demography in larch
+plantations: implications for uneven-aged management in northeast China.
+<a
+href="https://www.sciencedirect.com/science/article/pii/S0378112714001765#"
+target="_blank"><em>Forest Ecology and Management</em></a> 322: 10–18.
+<a href="pdf/Tatsumi_2014_ForEcolManage.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+<li><p><strong>Tatsumi S</strong>, Owari T, Kasahara H, Nakagawa Y
+(2014) Individual-level analysis of damage to residual trees after
+single-tree selection harvesting in northern Japanese mixedwood stands.
+<a href="https://link.springer.com/article/10.1007/s10310-013-0418-x"
+target="_blank"><em>Journal of Forest Research</em></a> 19(4): 369–378.
+<a href="pdf/Tatsumi_2014_JForRes.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></p></li>
+</ul>
+<p> 2013</p>
+<ul>
+<li><strong>Tatsumi S</strong>, Owari T (2013) Modeling the effects of
+individual-tree size, distance, and species on understory vegetation
+based on neighborhood analysis. <a
+href="https://cdnsciencepub.com/doi/full/10.1139/cjfr-2013-0111#.Uhy76hvvgrE"
+target="_blank"><em>Canadian Journal of Forest Research</em></a> 43(11):
+1006–1014. <a href="pdf/Tatsumi_2013_CanJForRes.pdf"
+target="_blank"><svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">
+<path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg></a></li>
+</ul>
+<p> 2010</p>
+<ul>
+<li>Suzuki S, <strong>Tatsumi S</strong>, Ueno Y (2010)
+Multiple-criteria decision-support system for optimising spatial
+distribution in a forest classification process. <a
+href="https://www.jstage.jst.go.jp/article/jfp/16/1/16_KJ00007700339/_article"><em>Journal
+of Forest Planning</em></a> 16(1): 17–26.</li>
+</ul>
+</div>
+<div id="books" class="section level5">
+<h5><strong>Books</strong></h5>
+<p><img src="image/books.png" width="30%" style="float:right; padding-left:2%" /></p>
+<ul>
+<li><p><strong>辰巳晋一</strong>（2021）「垂直（階層）構造」.
+日本森林学会（編）. <a
+href="https://www.maruzen-publishing.co.jp/item/?book_no=303353"
+target="_blank">森林学の百科事典</a>. 丸善出版. 42–43頁.</p></li>
+<li><p>Marc Kéry・J. Andrew Royle（著）,
+深谷肇一・飯島勇人・伊東宏樹（監訳）,
+飯島勇人・伊東宏樹・奥田武弘・長田穣・川森愛・柴田泰宙・高木俊・<strong>辰巳晋一</strong>・仁科一哉・深澤圭太・深谷肇一・正木隆（訳）（2021）<a
+href="https://www.kyoritsu-pub.co.jp/book/b10003301.html"
+target="_blank">生態学のための階層モデリング
+―RとBUGSによる分布・個体数量・種の豊かさの統計解析―</a>.
+共立出版.</p></li>
+<li><p>Mark Vellend（著）,
+松岡俊将・<strong>辰巳晋一</strong>・北川涼・門脇浩明（訳）（2019）<a
+href="https://www.kyoritsu-pub.co.jp/book/b10003154.html"
+target="_blank">生物群集の理論 ―4つのルールで読み解く生物多様性―</a>.
+共立出版.</p></li>
+</ul>
+</div>
+<div id="other-publications" class="section level5">
+<h5><strong>Other Publications</strong></h5>
+<ul>
+<li><p><strong>辰巳晋一</strong>（2021）多種混植による森林生産性の向上.
+北の森だより 27: 2–3.</p></li>
+<li><p><strong>辰巳晋一</strong>（2021）摩天楼と緑の街、トロント.
+北方林業 72(3): 25–27.</p></li>
+<li><p>石橋聡、古家直行、<strong>辰巳晋一</strong>（2019）北見地方天然林における洞爺丸台風風倒後の長期林分動態.
+北方森林研究 67: 61–62.</p></li>
+<li><p>橋本徹、伊藤江利子、梅村光俊、古家直行、<strong>辰巳晋一</strong>、石橋聡（2019）筋状地掻きで更新したダケカンバの立木位置と微地形の関係.
+北方森林研究 67: 53–56.</p></li>
+<li><p><strong>辰巳晋一</strong>（2019）ササ密度は中径針葉樹の下で薄い.
+北方林業 70(1): 32–35.</p></li>
+<li><p><strong>辰巳晋一</strong>（2016）単木情報を使った統計モデリング.
+<a
+href="https://www.jstage.jst.go.jp/article/jjfp/50/1/50_52/_article/-char/ja"
+target="_blank">森林計画学会誌</a> 50(1): 51–53.</p></li>
+<li><p><strong>辰巳晋一</strong>（2015）カラマツ林に樹下植栽されたチョウセンゴヨウの動態モデリング：中国東北部における二段林施業に向けて.
+広嶋卓也・吉本敦 編.
+「森林計画・計測における統計理論の応用に係わる若手研究集会」資料集.
+pp. 10–12. (ISBN 978-4-915870-45-3)</p></li>
+<li><p>尾張敏章、江口由典、宅間隆二、岡村行治、福岡哲、木村徳志、<strong>辰巳晋一</strong>（2015）択伐天然林の更新を補助するための精密植栽技術の開発
+(予報). 北方森林研究 63: 81–84.</p></li>
+<li><p>Owari T, <strong>Tatsumi S</strong>, Ning L, Yin M (2014) Height
+growth of Korean pine saplings planted under strip-cut larch plantations
+in northeast China. <em>The International Forestry Review</em> 16(5):
+366–367.</p></li>
+<li><p>Owari T, Okamura K, Fukushi K, Kasahara H, <strong>Tatsumi
+S</strong> (2014) Single-tree management for high-value timber species
+in a mixed conifer-hardwood forest in northern Japan. <em>The
+International Forestry Review</em> 16(5): 144.</p></li>
+<li><p><strong>Tatsumi S</strong>, Owari T, Ohkawa A, Nakagawa Y (2013)
+Bayesian modeling of neighborhood competition in uneven-aged
+mixed-species stands. <a
+href="https://www.jstage.jst.go.jp/article/formath/12/0/12_191/_article"
+target="_blank"><em>Formath</em></a> 12: 191–209.</p></li>
+<li><p><strong>Tatsumi S</strong>, Owari T, Toyama K, Shiraishi N (2012)
+Adaptation of a spatially-explicit individual-based forest dynamics
+model SORTIE-ND to conifer-broadleaved mixed stands in the University of
+Tokyo Hokkaido Forest. <a
+href="https://www.jstage.jst.go.jp/article/formath/11/0/11_1/_article"
+target="_blank"><em>Formath</em></a> 11: 1–26.</p></li>
+<li><p>尾張敏章、福士憲司、広川俊英、井上崇、江口由典、<strong>辰巳晋一</strong>、美濃羽靖、中島徹（2012）林分施業法の選木技術：ウダイカンバ二次林の事例.
+北方森林研究 60: 77–80.</p></li>
+<li><p><strong>Tatsumi S</strong>, Owari T, Yamamoto H, Shiraishi N
+(2010) Forty-two years of stand structure development in a natural
+sub-boreal forest under selection system in central Hokkaido, Japan.
+<em>The International Forestry Review</em> 12(5): 87.</p></li>
+<li><p><strong>辰巳晋一</strong>、尾張敏章、山本博一、白石則彦（2010）混交林択伐施業による42年間の林分構造の変化：東京大学北海道演習林の事例.
+関東森林研究 61: 53–56.</p></li>
+</ul>
+<p><br />
+</p>
+</div>
+</div>
+<div id="cv" class="section level3">
+<h3>CV</h3>
+<div id="research-positions" class="section level5">
+<h5><strong>Research Positions</strong></h5>
+<ul>
+<li>2020–present: Senior Researcher, Hokkaido Research Center, <a
+href="https://www.ffpri.affrc.go.jp/ffpri/en/index.html"
+target="_blank">FFPRI</a></li>
+<li>2019–2021: JSPS Overseas Research Fellow, University of Toronto (<a
+href="https://cubes-labs.com/" target="_blank">Marc Cadotte
+lab</a>)</li>
+<li>2018–2020: Researcher, Hokkaido Research Center, FFPRI</li>
+<li>2017–2018: Visiting Researcher, University of Toronto (Marc Cadotte
+lab)</li>
+<li>2016: Visiting Researcher, University of Eastern Finland (<a
+href="https://www.jarikouki.com/home" target="_blank">Jari Kouki
+lab</a>)</li>
+<li>2015–2018: JSPS Research Fellow PD, Yokohama National University (<a
+href="http://akkym.net/en/" target="_blank">Akira Mori lab</a>)</li>
+<li>2014–2015: Technical Assistant, Yokohama National University</li>
+<li>2012–2014: JSPS Research Fellow DC2, University of Tokyo (<a
+href="https://www.uf.a.u-tokyo.ac.jp/english/"
+target="_blank">University of Tokyo Forests</a>)</li>
+</ul>
+</div>
+<div id="education" class="section level5">
+<h5><strong>Education</strong></h5>
+<ul>
+<li>2011–2014: PhD, University of Tokyo</li>
+<li>2009–2011: MSc, University of Tokyo</li>
+<li>2005–2009: BSc, Tokyo University of Agriculture and Technology</li>
+</ul>
+</div>
+<div id="grants-and-fellowships" class="section level5">
+<h5><strong>Grants and Fellowships</strong></h5>
+<ul>
+<li>2022–2023: Commissioned Research, Forestry Agency (Hosoda K, Tatsumi
+S, et al.)</li>
+<li>2021–2025: JSPS Grant-in-Aid for Young Scientists (Tatsumi S)</li>
+<li>2021–2022: Funded Research, the Smart Forestry EZO Model (Furuya N
+&amp; Tatsumi S)</li>
+<li>2019–2021: JSPS Overseas Research Fellowship (Tatsumi S)</li>
+<li>2018–2021: Swedish Research Council Grant (Low M, Gårdmark A, Ecke F
+&amp; Tatsumi S)</li>
+<li>2016–2019: JSPS Grant-in-Aid for Young Scientists B (Tatsumi S)</li>
+<li>2016–2017: Pro Natura Fund Grant (Mori A, Tatsumi S &amp; Nishizawa
+K)</li>
+<li>2016–2016: Scandinavia-Japan Sasakawa Foundation Grant (Tatsumi S
+&amp; Gustafsson L)</li>
+<li>2015–2018: Grant-in-Aid for JSPS Fellows (Tatsumi S)</li>
+<li>2014–2015: KWEF Research Grant (Owari T &amp; Tatsumi S)</li>
+<li>2012–2014: Grant-in-Aid for JSPS Fellows (Tatsumi S)</li>
+<li>2012–2013: AGS Research Grant (Owari T, Tatsumi S &amp; Yin M)</li>
+<li>2011–2012: Sasakawa Scientific Research Grant (Tatsumi S)</li>
+</ul>
+</div>
+<div id="awards" class="section level5">
+<h5><strong>Awards</strong></h5>
+<ul>
+<li>2020: Postdoc Paper of the Year 2019, Department of Biological
+Sciences, University of Toronto Scarborough</li>
+<li>2018: Best English Presentation Award, Ecological Society of
+Japan</li>
+<li>2018: Ecological Research Paper Award 2017, Ecological Society of
+Japan</li>
+<li>2016: Kuroiwa Prize, Japan Society of Forest Planning</li>
+<li>2014: Dean’s Award for Academic Excellence (Ph.D.), Department of
+Agricultural and Life Sciences, University of Tokyo</li>
+<li>2014: Excellent Poster Award, Ecological Society of Japan</li>
+<li>2014: Incentive Award for Young Researchers, ESJ Hokkaido
+Branch</li>
+<li>2013: Student Poster Award, Japan Forest Society</li>
+<li>2012: Student Poster Award, Japan Forest Society</li>
+<li>2012: Sasakawa Scientific Research Award, Japan Science Society</li>
+</ul>
+</div>
+<div id="academic-services" class="section level5">
+<h5><strong>Academic Services</strong></h5>
+<ul>
+<li>2023–present: Associate Editor, <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/13652745"
+target="_blank"><em>Journal of Ecology</em></a></li>
+<li>2023–present: Representative director of Hokkaido region, Japan
+Society of Forest Planning</li>
+<li>2022–present: Editorial Board, <a
+href="https://www.tandfonline.com/journals/tjfr20"
+target="_blank"><em>Journal of Forest Research</em></a></li>
+<li>2020–present: Associate Editor, <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/26888319"
+target="_blank"><em>Ecological Solutions and Evidence</em></a></li>
+<li>2020–2023: Committee member, English Session, Ecological Society of
+Japan</li>
+<li>2011–2012: Committee member, Master-theses Conference, ESJ
+Kanto</li>
+</ul>
+</div>
+<div id="manuscript-review" class="section level5">
+<h5><strong>Manuscript Review</strong></h5>
+<ul>
+<li><p>Annals of Forest Science, Biological Conservation, Biological
+Invasions, Biological Reviews, Canadian Journal of Forest Research (2),
+Conservation Science and Practice (4), Diversity and Distributions,
+Ecography (3), Ecological Processes, Ecological Research (2), Ecology
+(3), Ecology and Evolution, Ecology Letters (2), Ecosphere, Forest
+Ecology and Management (3), Forestry Chronicle, Forests (4), Frontiers
+in Plant Science, Functional Ecology, Global Ecology and Biogeography,
+Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of
+Biogeography (2), Journal of Ecology, Journal of Forest Research (2),
+Journal of Mountain Science, Journal of Sustainable Forestry, Journal of
+Vegetation Science (5), Landscape and Ecological Engineering, Methods in
+Ecology and Evolution, Oecologia (3), Plos One, Population Ecology,
+Scientific Data, Scientific Reports (2), Swiss National Science
+Foundation, Trees Structure and Function, 森林計画学会誌 (2),
+北方森林研究</p></li>
+<li><p>Review-publication ratio: <strong>5.5</strong> (= 66 manuscripts
+reviewed / 12 first-author papers)</p></li>
+</ul>
+<p><br />
+</p>
+</div>
+</div>
+<div id="履歴書" class="section level3">
+<h3>履歴書</h3>
+<ul>
+<li>Research Mapは<a href="https://researchmap.jp/shin1.ta23"
+target="_blank">こちら</a></li>
+</ul>
+<div id="職歴" class="section level5">
+<h5>職歴</h5>
+<ul>
+<li>2020–現在: 国立研究開発法人 森林総合研究所 北海道支所
+主任研究員</li>
+<li>2019–2021: トロント大学 生物科学研究科 JSPS海外特別研究員</li>
+<li>2018–2020: 国立研究開発法人 森林総合研究所 北海道支所 研究員</li>
+<li>2017–2018: トロント大学 生物科学研究科 訪問研究員</li>
+<li>2016: 東フィンランド大学 森林科学科 訪問研究員</li>
+<li>2015–2018: 横浜国立大学大学院 環境情報研究院 JSPS特別研究員 PD</li>
+<li>2014–2015: 横浜国立大学大学院 環境情報研究院 技術補佐員</li>
+<li>2012–2014: 東京大学大学院 農学生命科学研究科 JSPS特別研究員 DC2</li>
+</ul>
+</div>
+<div id="学歴" class="section level5">
+<h5>学歴</h5>
+<ul>
+<li>2011–2014: 東京大学大学院 農学生命科学研究科 森林科学専攻
+博士課程</li>
+<li>2009–2011: 東京大学大学院 農学生命科学研究科 森林科学専攻
+修士課程</li>
+<li>2005–2009: 東京農工大学 農学部 地域生態システム学科</li>
+</ul>
+</div>
+<div id="研究助成" class="section level5">
+<h5>研究助成</h5>
+<ul>
+<li>2022–2023: 林野庁 調査委託事業（分担）</li>
+<li>2021–2025: JSPS 科学研究費基金 若手研究（個人）</li>
+<li>2021–2022: スマート林業EZOモデル構築協議会 受託研究（分担）</li>
+<li>2019–2021: JSPS 海外特別研究員（個人）</li>
+<li>2018–2021: スウェーデン科学評議会 Vetenskapsrådet
+研究費（分担）</li>
+<li>2016–2019: JSPS 科学研究費基金 若手研究B（個人）</li>
+<li>2016–2017: プロ・ナトゥーラ・ファンド国内研究助成 （分担）</li>
+<li>2016–2016: スカンジナビア・ニッポン
+ササカワ財団研究助成（代表）</li>
+<li>2015–2018: JSPS 科学研究費補助金 特別研究員奨励費 PD（個人）</li>
+<li>2014–2015: クリタ水・環境科学振興財団 研究助成（分担）</li>
+<li>2012–2014: JSPS 科学研究費補助金 特別研究員奨励費 DC2（個人）</li>
+<li>2012–2013: 東京大学 AGS研究助成（分担）</li>
+<li>2011–2012: 日本科学協会 笹川科学研究助成（個人）</li>
+</ul>
+</div>
+<div id="賞罰" class="section level5">
+<h5>賞罰</h5>
+<ul>
+<li>2020: トロント大学 生物科学研究科 Postdoc Paper of the Year
+2019</li>
+<li>2018: 第65回 日本生態学会 Best English Presentation Award</li>
+<li>2018: 日本生態学会 Ecological Research Paper Award 2017</li>
+<li>2016: 2015年度 森林計画学会 黒岩菊郎記念研究奨励賞</li>
+<li>2014: 2013年度 東京大学大学院 農学生命科学研究科
+研究科長賞（博士）</li>
+<li>2014: 第61回 日本生態学会 優秀ポスター賞</li>
+<li>2014: 2013年度 日本生態学会 北海道地区会 若手研究奨励賞</li>
+<li>2013: 第124回 日本森林学会 学生ポスター賞</li>
+<li>2012: 第123回 日本森林学会 学生ポスター賞</li>
+<li>2012: 平成23年度 日本科学協会 笹川科学研究奨励賞</li>
+</ul>
+</div>
+<div id="委員" class="section level5">
+<h5>委員</h5>
+<ul>
+<li>2023-現在: <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/13652745"
+target="_blank"><em>Journal of Ecology</em></a> 編集委員</li>
+<li>2023-現在: 森林計画学会 北海道地区代表理事</li>
+<li>2022-現在: <a href="https://www.tandfonline.com/journals/tjfr20"
+target="_blank"><em>Journal of Forest Research</em></a> 編集委員</li>
+<li>2020-現在: <a
+href="https://besjournals.onlinelibrary.wiley.com/journal/26888319"
+target="_blank"><em>Ecological Solutions and Evidence</em></a>
+編集委員</li>
+<li>2020–2023: 日本生態学会 英語発表部会委員（21年度 副部会長, 22年度
+部会長）</li>
+<li>2011–2012: 第32回 関東生態学関係修論発表会委員</li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

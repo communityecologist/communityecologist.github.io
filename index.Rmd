@@ -37,8 +37,6 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 * **Tatsumi S**, Punwasi N, Roberto A, Cadotte MW (2023) Response diversity is key to buffer ecosystem productivity against multiple environmental change drivers. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2023.08.20.554000v1){target="_blank"} 10.1101/2023.08.20.554000.
 
-* **Tatsumi S**, Ohgue T, Azuma WA, Nishizawa K (2023) Bark traits affect epiphytic bryophyte community assembly in a temperate forest. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2023.07.12.548789v1){target="_blank"} 10.1101/2023.07.12.548789.
-
 * Naka M, Masumoto S, Nishizawa K, Matsuoka S, **Tatsumi S**, Kobayashi Y, Suzuki KF, Kawakami T, Katayama N, Makoto K, Okada K, Uchida M, Takagi K, Mori AS (2023) Impacts of ecosystem restoration on soil fungal community structure: Comparisons between tree planting and natural regeneration. [*SSRN*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4427873){target="_blank"} 10.2139/ssrn.4427873.
 
 * Iritani R, Ontiveros VJ, Alonso D, Capitan JA, Godsoe W, **Tatsumi S** (2022) Jaccard dissimilarity in stochastic community models based on the species-independence assumption. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.12.13.520233v2){target="_blank"} 10.1101/2022.12.13.520233.
@@ -48,6 +46,8 @@ Welcome to my research website. I am a community ecologist studying changes in b
 ##### **Peer-reviewed Articles**
 
 &emsp;In press
+
+* **Tatsumi S**, Ohgue T, Azuma WA, Nishizawa K (in press) Bark traits affect epiphytic bryophyte community assembly in a temperate forest. *Plant Ecology*.
 
 * **Tatsumi S**, Loreau M (in press) Partitioning the biodiversity effects on productivity into density and size components. [*Ecology Letters*](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.14300){target="_blank"} 10.1111/ele.14300. [`r icons::fontawesome("file-pdf")`](pdf/Tatsumi_2023_EcolLett.pdf){target="_blank"}
 
@@ -231,7 +231,7 @@ knitr::include_graphics("image/books.png")
 ##### **Manuscript Review**
 * Annals of Forest Science, Biological Conservation, Biological Invasions, Biological Reviews, Canadian Journal of Forest Research (2), Conservation Science and Practice (4), Diversity and Distributions, Ecography (3), Ecological Processes, Ecological Research (3), Ecology (3), Ecology and Evolution, Ecology Letters (2), Ecosphere, Forest Ecology and Management (3), Forestry Chronicle, Forests (4), Frontiers in Plant Science, Functional Ecology, Global Ecology and Biogeography, Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of Biogeography (2), Journal of Ecology, Journal of Forest Research (2), Journal of Mountain Science, Journal of Sustainable Forestry, Journal of Vegetation Science (5), Landscape and Ecological Engineering, Methods in Ecology and Evolution, Nature Ecology & Evolution, Oecologia (3), Plos One, Population Ecology, Scientific Data, Scientific Reports (2), Swiss National Science Foundation, Trees Structure and Function, 森林計画学会誌 (2), 北方森林研究
 
-* Review-publication ratio: **5.23** (= 68 manuscripts reviewed / 13 first-author papers)
+* Review-publication ratio: **4.86** (= 68 manuscripts reviewed / 14 first-author papers)
 
 \
 

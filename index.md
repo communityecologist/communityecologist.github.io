@@ -33,8 +33,6 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 * **Tatsumi S**, Punwasi N, Roberto A, Cadotte MW (2023) Response diversity is key to buffer ecosystem productivity against multiple environmental change drivers. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2023.08.20.554000v1){target="_blank"} 10.1101/2023.08.20.554000.
 
-* Naka M, Masumoto S, Nishizawa K, Matsuoka S, **Tatsumi S**, Kobayashi Y, Suzuki KF, Kawakami T, Katayama N, Makoto K, Okada K, Uchida M, Takagi K, Mori AS (2023) Impacts of ecosystem restoration on soil fungal community structure: Comparisons between tree planting and natural regeneration. [*SSRN*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4427873){target="_blank"} 10.2139/ssrn.4427873.
-
 * Iritani R, Ontiveros VJ, Alonso D, Capitan JA, Godsoe W, **Tatsumi S** (2022) Jaccard dissimilarity in stochastic community models based on the species-independence assumption. [*bioRxiv*](https://www.biorxiv.org/content/10.1101/2022.12.13.520233v2){target="_blank"} 10.1101/2022.12.13.520233.
 
 ---
@@ -43,13 +41,16 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 &emsp;In press
 
-* **Tatsumi S**, Ohgue T, Azuma WA, Nishizawa K (in press) Bark traits affect epiphytic bryophyte community assembly in a temperate forest. [*Plant Ecology*](https://link.springer.com/article/10.1007/s11258-023-01363-9){target="_blank"} 10.1007/s11258-023-01363-9. [<svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>](pdf/Tatsumi_2023_PlantEcol.pdf){target="_blank"}
+* Naka M, Masumoto S, Nishizawa K, Matsuoka S, **Tatsumi S**, Kobayashi Y, Suzuki KF, Xu X, Kawakami T, Katayama N, Makoto K, Okada K, Uchida M, Takagi K, Mori AS (in press) Long-term consequences on soil fungal community structure: monoculture
+planting and natural regeneration. [*Environmental Management*](https://link.springer.com/article/10.1007/s00267-023-01917-7){target="_blank"} 10.1007/s00267-023-01917-7.  [<svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>](pdf/Naka_2024_EnvironManage.pdf){target="_blank"}
 
 &emsp;2023
 
 * **Tatsumi S**, Loreau M (2023) Partitioning the biodiversity effects on productivity into density and size components. [*Ecology Letters*](https://onlinelibrary.wiley.com/doi/full/10.1111/ele.14300){target="_blank"} 26(11): 1963–1673. [<svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>](pdf/Tatsumi_2023_EcolLett.pdf){target="_blank"}
 
 * **Tatsumi S**, Yamaguchi K, Furuya N (2023) ForestScanner: a mobile application for measuring and mapping trees with LiDAR-equipped iPhone and iPad. [*Methods in Ecology and Evolution*](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13900){target="_blank"} 14(7): 1603–1609. [<svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>](pdf/Tatsumi_2023_MethodsEcolEvol.pdf){target="_blank"}
+
+* **Tatsumi S**, Ohgue T, Azuma WA, Nishizawa K (2023) Bark traits affect epiphytic bryophyte community assembly in a temperate forest. [*Plant Ecology*](https://link.springer.com/article/10.1007/s11258-023-01363-9){target="_blank"} 224(12): 1089–1095. [<svg viewBox="0 0 384 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg">  <path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>](pdf/Tatsumi_2023_PlantEcol.pdf){target="_blank"}
 
 &emsp;2022
 
@@ -134,7 +135,7 @@ Welcome to my research website. I am a community ecologist studying changes in b
 
 ##### **Other Publications**
 
-* 西園朋広、細田和男、齋藤英樹、高橋正義、北原文章、山田祐亮、鄭峻介、志水克人、石橋聡、古家直行、**辰巳晋一**、小谷英司、松浦俊也、齋藤和彦、田中邦宏、田中真哉、福本桂子、近藤洋史、高橋與明、佐野真琴、鷹尾元（2023）平成28～令和2年度に調査した収穫試験地等固定試験地の経年成長データ. 森林総合研究所研究報告. 印刷中.
+* 西園朋広、細田和男、齋藤英樹、高橋正義、北原文章、山田祐亮、鄭峻介、志水克人、石橋聡、古家直行、**辰巳晋一**、小谷英司、松浦俊也、齋藤和彦、田中邦宏、田中真哉、福本桂子、近藤洋史、高橋與明、佐野真琴、鷹尾元（2023）平成28～令和2年度に調査した収穫試験地等固定試験地の経年成長データ (収穫試験報告 第27号). [森林総合研究所研究報告](https://www.jstage.jst.go.jp/article/ffpri/22/3/22_141/_article/-char/ja){target="_blank"} 22(3): 141–190.
 
 * **辰巳晋一**（2021）多種混植による森林生産性の向上. 北の森だより 27: 2–3.
 
@@ -278,9 +279,9 @@ Welcome to my research website. I am a community ecologist studying changes in b
 * 2012: 平成23年度 日本科学協会 笹川科学研究奨励賞
 
 ##### 委員
-* 2023-現在: [*Journal of Ecology*](https://besjournals.onlinelibrary.wiley.com/journal/13652745){target="_blank"} 編集委員
-* 2023-現在: 森林計画学会 北海道地区代表理事
-* 2022-現在: [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"} 編集委員
-* 2020-現在: [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"} 編集委員
+* 2023–現在: [*Journal of Ecology*](https://besjournals.onlinelibrary.wiley.com/journal/13652745){target="_blank"} 編集委員
+* 2023年度–現在: 森林計画学会 北海道地区代表理事
+* 2022–現在: [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"} 編集委員
+* 2020–現在: [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"} 編集委員
 * 2020–2022年度: 日本生態学会 英語発表部会委員（21年度 副部会長, 22年度 部会長）
 * 2011–2011年度: 第32回 関東生態学関係修論発表会委員

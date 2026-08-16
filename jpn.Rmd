@@ -5,7 +5,7 @@ title: "辰巳 晋一"
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
 
-<div style="text-align:right; margin-bottom:0.8em;">
+<div class="lang-toggle">
 <a href="/" class="btn btn-default btn-sm">English</a> <a href="/jpn" class="btn btn-primary btn-sm">日本語</a>
 </div>
 
@@ -17,10 +17,11 @@ knitr::include_graphics("image/head.png")
 knitr::include_graphics("image/img1.png")
 ```
 
-&emsp; `r icons::fontawesome("briefcase")` &thinsp; 京都大学 大学院農学研究科 森林科学専攻 [森林生態学研究室](https://www.rfecol.kais.kyoto-u.ac.jp/){target="_blank"}  
+&emsp; `r icons::fontawesome("briefcase")` &thinsp; 京都大学 大学院農学研究科 森林科学専攻 [森林生態学研究室](https://www.rfecol.kais.kyoto-u.ac.jp/){target="_blank"} 准教授  
 &emsp; `r icons::fontawesome("envelope")` &thinsp; community.ecologist at gmail dot com  
 
-専門は群集生態学です。樹木群集の多種共存と生態系機能について、長期モニタリング・操作実験・理論的アプローチを組み合わせて研究しています。基礎科学としての群集生態学をベースに、「森林伐採や気候変動などの人為的要因が多種共存に与える影響」や「生物多様性と森林生産性の関係」といった、森林管理への応用を見据えたテーマに取り組んでいます。Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}をご覧ください。
+専門は群集生態学です。樹木群集の多種共存と生態系機能について、長期モニタリング・操作実験・理論的アプローチを組み合わせて研究しています。基礎科学としての群集生態学に立脚して、「森林伐採や気候変動などの人為的要因が多種共存に与える影響」や「生物多様性と森林生産性の関係」といった、森林管理への応用を見据えたテーマに取り組んでいます。\
+Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}をご覧ください。
 
 <div style="text-align: center;">
 [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?hl=ja&user=u4JoW-sAAAAJ&view_op=list_works&sortby=pubdate "Google Scholar"){target="_blank"}
@@ -215,7 +216,7 @@ knitr::include_graphics("image/books.png")
 ##### 研究助成
 * 2026–2028年度: JSPS 科学研究費助成事業 挑戦的研究（萌芽）（代表）
 * 2025–2028年度: JSPS 科学研究費助成事業 基盤研究 B（代表）
-* 2025–2027年度: SMBC森林GXプロジェクト（分担）
+* 2025–2027年度: 東京大学 SMBC 森林GXプロジェクト（分担）
 * 2024–2025年度: JSPS 科学研究費助成事業 学術変革領域研究（A）公募研究（個人）
 * 2022–2023年度: 林野庁 調査委託事業（分担）
 * 2021–2024年度: JSPS 科学研究費助成事業 若手研究（個人）
@@ -258,5 +259,5 @@ knitr::include_graphics("image/books.png")
 ##### 査読経験
 * Annals of Forest Science, Biological Conservation, Biological Invasions, Biological Reviews, Canadian Journal of Forest Research (2), Conservation Science and Practice (4), Diversity and Distributions, Ecography (3), Ecological Processes, Ecological Research (4), Ecology (4), Ecology and Evolution, Ecology Letters (5), Ecosphere, Forest Ecology and Management (4), Forestry Chronicle, Forests (4), Frontiers in Plant Science, Functional Ecology, Global Ecology and Biogeography, Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of Biogeography (2), Journal of Ecology, Journal of Forest Research (2), Journal of Mountain Science, Journal of Plant Research (2), Journal of Sustainable Forestry, Journal of Vegetation Science (5), Landscape and Ecological Engineering, Methods in Ecology and Evolution, Nature Climate Change, Nature Ecology & Evolution, Oecologia (3), Plos One, Population Ecology, Progress in Earth and Planetary Science, Scientific Data, Scientific Reports (2), Swiss National Science Foundation, Trees Structure and Function, 森林計画学会誌 (3), 北方森林研究
 
-* 査読－出版比：**5.64**（＝査読した原稿79部 / 出版した筆頭論文14本）
+* 査読/出版比 = **5.64**（査読した原稿79部 / 出版した筆頭論文14本）
 

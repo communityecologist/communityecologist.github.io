@@ -5,7 +5,7 @@ title: "Shinichi Tatsumi, PhD"
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
 
-<div style="text-align:right; margin-bottom:0.8em;">
+<div class="lang-toggle">
 <a href="/" class="btn btn-primary btn-sm">English</a> <a href="/jpn" class="btn btn-default btn-sm">日本語</a>
 </div>
 
@@ -165,7 +165,7 @@ I co-run the [Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.j
 ##### **Grants and Fellowships**
 * 2026–2029: JSPS Grant-in-Aid for Challenging Research (Exploratory) (Tatsumi S & Onoda Y)
 * 2025–2029: JSPS Grant-in-Aid for Scientific Research (B) (Tatsumi S, Imai N & Aoyagi R)
-* 2025–2028: SMBC Forest GX Project (Owari T, Tatsumi S, et al.)
+* 2025–2028: UTokyo SMBC Forest GX Project (Owari T, Tatsumi S, et al.)
 * 2024–2026: JSPS Grant-in-Aid for Transformative Research Areas (A) (Publicly Offered Research) (Tatsumi S)
 * 2022–2024: Commissioned Research, Forestry Agency (Hosoda K, Tatsumi S, et al.)
 * 2021–2025: JSPS Grant-in-Aid for Young Scientists (Tatsumi S)

@@ -1,1 +1,12 @@
 <link rel="shortcut icon" href="image/favicon.png">
+<style>
+/* language toggle: pin to the top-right, level with the page title */
+.main-container { position: relative; }
+.lang-toggle { position: absolute; top: 22px; right: 18px; z-index: 1000; }
+/* hide the floating table of contents on phones */
+@media (max-width: 767px) {
+  #TOC { display: none !important; }
+  .toc-content { padding-left: 15px; padding-right: 15px; }
+  .lang-toggle { top: 14px; right: 12px; }
+}
+</style>

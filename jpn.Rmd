@@ -1,12 +1,12 @@
 ---
-title: "Shinichi Tatsumi, PhD"
+title: "辰巳 晋一"
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
 
 <div style="text-align:right; margin-bottom:0.8em;">
-<a href="/" class="btn btn-primary btn-sm">English</a> <a href="/jpn" class="btn btn-default btn-sm">日本語</a>
+<a href="/" class="btn btn-default btn-sm">English</a> <a href="/jpn" class="btn btn-primary btn-sm">日本語</a>
 </div>
 
 ```{r out.width='100%', echo=FALSE}
@@ -17,11 +17,10 @@ knitr::include_graphics("image/head.png")
 knitr::include_graphics("image/img1.png")
 ```
 
-&emsp; `r icons::fontawesome("briefcase")` &thinsp; Associate Professor, Graduate School of Agriculture, Kyoto University  
+&emsp; `r icons::fontawesome("briefcase")` &thinsp; 京都大学 大学院農学研究科 森林科学専攻 [森林生態学研究室](https://www.rfecol.kais.kyoto-u.ac.jp/){target="_blank"}  
 &emsp; `r icons::fontawesome("envelope")` &thinsp; community.ecologist at gmail dot com  
 
-Welcome to my research website. I am a community ecologist studying changes in biodiversity across space and time. I work on developing new quantitative methods to disentangle the complexities underlying ecological community structure and ecosystem functioning. I am also interested in applying ecological theory to ecosystem management under global change.\
-I co-run the [Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.jp/en/%e3%83%9b%e3%83%bc%e3%83%a0-english/){target="_blank"}, Graduate School of Agriculture, Kyoto University, with Prof. [Yusuke Onoda](https://sites.google.com/site/yusukeonoda/){target="_blank"}. I serve as an associate editor for [*Journal of Ecology*](https://besjournals.onlinelibrary.wiley.com/journal/13652745){target="_blank"}, [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"}, and [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"}.
+専門は群集生態学です。樹木群集の多種共存と生態系機能について、長期モニタリング・操作実験・理論的アプローチを組み合わせて研究しています。基礎科学としての群集生態学をベースに、「森林伐採や気候変動などの人為的要因が多種共存に与える影響」や「生物多様性と森林生産性の関係」といった、森林管理への応用を見据えたテーマに取り組んでいます。Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}をご覧ください。
 
 <div style="text-align: center;">
 [<i class="ai ai-google-scholar ai-2x"></i>](https://scholar.google.co.jp/citations?hl=ja&user=u4JoW-sAAAAJ&view_op=list_works&sortby=pubdate "Google Scholar"){target="_blank"}
@@ -32,11 +31,11 @@ I co-run the [Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.j
 &ensp; [<i class="fab fa-github fa-2x"></i>](https://github.com/communityecologist "GitHub"){target="_blank"}
 </div>
 
-### Publications
+### 出版物
 
 ---
 
-##### **Preprints**
+##### **プレプリント**
 
 * Daido Y, Konrai K, Onoda Y, **Tatsumi S** (2026) Thermophilization, climatic debt, and consequent declines in primary productivity. [*bioRxiv*](https://www.biorxiv.org/content/10.64898/2026.04.28.721369){target="_blank"} 10.64898/2026.04.28.721369.
 
@@ -44,7 +43,7 @@ I co-run the [Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.j
 
 ---
 
-##### **Peer-reviewed Articles**
+##### **査読付き論文**
 
 &emsp;2026
 
@@ -144,69 +143,120 @@ I co-run the [Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.j
 
 ---
 
-### CV
+##### **書籍**
 
-##### **Research Positions**
-* 2024–present: Associate Professor, Kyoto University ([Laboratory of Forest Ecology](https://www.rfecol.kais.kyoto-u.ac.jp/en/%e3%83%9b%e3%83%bc%e3%83%a0-english/){target="_blank"})
-* 2020–2024: Senior Researcher, Hokkaido Research Center, [FFPRI](https://www.ffpri.affrc.go.jp/ffpri/en/index.html){target="_blank"}
-* 2019–2021: JSPS Overseas Research Fellow, University of Toronto ([Marc Cadotte lab](https://cubes-labs.com/){target="_blank"})
-* 2018–2020: Researcher, Hokkaido Research Center, FFPRI
-* 2017–2018: Visiting Researcher, University of Toronto (Marc Cadotte lab)
-* 2016: Visiting Researcher, University of Eastern Finland ([Jari Kouki lab](https://www.jarikouki.com/home){target="_blank"})
-* 2015–2018: JSPS Research Fellow PD, Yokohama National University ([Akira Mori lab](http://akkym.net/en/){target="_blank"})
-* 2014–2015: Technical Assistant, Yokohama National University
-* 2012–2014: JSPS Research Fellow DC2, University of Tokyo ([University of Tokyo Forests](https://www.uf.a.u-tokyo.ac.jp/english/){target="_blank"})
+```{r out.width='30%', out.extra='style="float:right; padding-left:2%"', echo=FALSE}
+knitr::include_graphics("image/books.png")
+```
 
-##### **Education**
-* 2011–2014: PhD, University of Tokyo
-* 2009–2011: MSc, University of Tokyo
-* 2005–2009: BSc, Tokyo University of Agriculture and Technology
 
-##### **Grants and Fellowships**
-* 2026–2029: JSPS Grant-in-Aid for Challenging Research (Exploratory) (Tatsumi S & Onoda Y)
-* 2025–2029: JSPS Grant-in-Aid for Scientific Research (B) (Tatsumi S, Imai N & Aoyagi R)
-* 2025–2028: SMBC Forest GX Project (Owari T, Tatsumi S, et al.)
-* 2024–2026: JSPS Grant-in-Aid for Transformative Research Areas (A) (Publicly Offered Research) (Tatsumi S)
-* 2022–2024: Commissioned Research, Forestry Agency (Hosoda K, Tatsumi S, et al.)
-* 2021–2025: JSPS Grant-in-Aid for Young Scientists (Tatsumi S)
-* 2021–2022: Funded Research, the Smart Forestry EZO Model (Furuya N & Tatsumi S)
-* 2019–2021: JSPS Overseas Research Fellowship (Tatsumi S)
-* 2018–2021: Swedish Research Council Grant (Low M, Gårdmark A, Ecke F & Tatsumi S)
-* 2016–2019: JSPS Grant-in-Aid for Young Scientists B (Tatsumi S)
-* 2016–2017: Pro Natura Fund Grant (Mori A, Tatsumi S & Nishizawa K)
-* 2016–2016: Scandinavia-Japan Sasakawa Foundation Grant (Tatsumi S & Gustafsson L)
-* 2015–2018: Grant-in-Aid for JSPS Fellows (Tatsumi S)
-* 2014–2015: KWEF Research Grant (Owari T & Tatsumi S)
-* 2012–2014: Grant-in-Aid for JSPS Fellows (Tatsumi S)
-* 2012–2013: AGS Research Grant (Owari T, Tatsumi S & Yin M)
-* 2011–2012: Sasakawa Scientific Research Grant (Tatsumi S)
+* **辰巳晋一**（2021）「垂直（階層）構造」. 日本森林学会（編）. [森林学の百科事典](https://www.maruzen-publishing.co.jp/item/?book_no=303353){target="_blank"}. 丸善出版. 42–43頁.
 
-##### **Awards**
-* 2025: Japan Agriculture Progress Award, Agricultural Society of Japan
-* 2020: Postdoc Paper of the Year 2019, Department of Biological Sciences, University of Toronto Scarborough
-* 2018: Best English Presentation Award, Ecological Society of Japan
-* 2018: Ecological Research Paper Award 2017, Ecological Society of Japan
-* 2016: Kuroiwa Prize, Japan Society of Forest Planning
-* 2014: Dean’s Award for Academic Excellence (Ph.D.), Department of Agricultural and Life Sciences, University of Tokyo
-* 2014: Excellent Poster Award, Ecological Society of Japan
-* 2014: Incentive Award for Young Researchers, ESJ Hokkaido Branch
-* 2013: Student Poster Award, Japan Forest Society
-* 2012: Student Poster Award, Japan Forest Society
-* 2012: Sasakawa Scientific Research Award, Japan Science Society
+* Marc Kéry・J. Andrew Royle（著）, 深谷肇一・飯島勇人・伊東宏樹（監訳）, 飯島勇人・伊東宏樹・奥田武弘・長田穣・川森愛・柴田泰宙・高木俊・**辰巳晋一**・仁科一哉・深澤圭太・深谷肇一・正木隆（訳）（2021）[生態学のための階層モデリング ―RとBUGSによる分布・個体数量・種の豊かさの統計解析―](https://www.kyoritsu-pub.co.jp/book/b10003301.html){target="_blank"}. 共立出版.
 
-##### **Academic Services**
-* 2025–present: Special Investigator, Science and Technology Foresight Center, NISTEP
-* 2025–present: Conference Program Committee (Plant Ecology Division), Japanese Forest Society
-* 2025–2026: Finance Assistant, ESJ73 Conference Executive Committee, Ecological Society of Japan
-* 2023–present: Associate Editor, [*Journal of Ecology*](https://besjournals.onlinelibrary.wiley.com/journal/13652745){target="_blank"}
-* 2023–2024: Representative Director of Hokkaido Region, Japan Society of Forest Planning 
-* 2022–present: Editorial Board, [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"}
-* 2020–present: Associate Editor, [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"}
-* 2020–2023: Committee Member, English Session, Ecological Society of Japan
-* 2011–2012: Committee Member, Master-Theses Conference, ESJ Kanto
+* Mark Vellend（著）, 松岡俊将・**辰巳晋一**・北川涼・門脇浩明（訳）（2019）[生物群集の理論 ―4つのルールで読み解く生物多様性―](https://www.kyoritsu-pub.co.jp/book/b10003154.html){target="_blank"}. 共立出版.
 
-##### **Manuscript Review**
+---
+
+##### **その他の出版物**
+
+* 西園朋広、細田和男、齋藤英樹、高橋正義、北原文章、山田祐亮、鄭峻介、志水克人、石橋聡、古家直行、**辰巳晋一**、小谷英司、松浦俊也、齋藤和彦、田中邦宏、田中真哉、福本桂子、近藤洋史、高橋與明、佐野真琴、鷹尾元（2023）平成28～令和2年度に調査した収穫試験地等固定試験地の経年成長データ (収穫試験報告 第27号). [森林総合研究所研究報告](https://www.jstage.jst.go.jp/article/ffpri/22/3/22_141/_article/-char/ja){target="_blank"} 22(3): 141–190.
+
+* **辰巳晋一**（2021）多種混植による森林生産性の向上. 北の森だより 27: 2–3.
+
+* **辰巳晋一**（2021）摩天楼と緑の街、トロント. 北方林業 72(3): 25–27.
+
+* 石橋聡、古家直行、**辰巳晋一**（2019）北見地方天然林における洞爺丸台風風倒後の長期林分動態. 北方森林研究 67: 61–62.
+
+* 橋本徹、伊藤江利子、梅村光俊、古家直行、**辰巳晋一**、石橋聡（2019）筋状地掻きで更新したダケカンバの立木位置と微地形の関係. 北方森林研究 67: 53–56.
+
+* **辰巳晋一**（2019）ササ密度は中径針葉樹の下で薄い. 北方林業 70(1): 32–35.
+
+* **辰巳晋一**（2016）単木情報を使った統計モデリング. [森林計画学会誌](https://www.jstage.jst.go.jp/article/jjfp/50/1/50_52/_article/-char/ja){target="_blank"} 50(1): 51–53.
+
+* **辰巳晋一**（2015）カラマツ林に樹下植栽されたチョウセンゴヨウの動態モデリング：中国東北部における二段林施業に向けて. 広嶋卓也・吉本敦 編. 「森林計画・計測における統計理論の応用に係わる若手研究集会」資料集. pp. 10–12. (ISBN 978-4-915870-45-3)
+
+* 尾張敏章、江口由典、宅間隆二、岡村行治、福岡哲、木村徳志、**辰巳晋一**（2015）択伐天然林の更新を補助するための精密植栽技術の開発 (予報). 北方森林研究 63: 81–84.
+
+* Owari T, **Tatsumi S**, Ning L, Yin M (2014) Height growth of Korean pine saplings planted under strip-cut larch plantations in northeast China. *The International Forestry Review* 16(5): 366–367.
+
+* Owari T, Okamura K, Fukushi K, Kasahara H, **Tatsumi S** (2014) Single-tree management for high-value timber species in a mixed conifer-hardwood forest in northern Japan. *The International Forestry Review* 16(5): 144.
+
+* **Tatsumi S**, Owari T, Ohkawa A, Nakagawa Y (2013) Bayesian modeling of neighborhood competition in uneven-aged mixed-species stands. [*Formath*](https://www.jstage.jst.go.jp/article/formath/12/0/12_191/_article){target="_blank"} 12: 191–209.
+
+* **Tatsumi S**, Owari T, Toyama K, Shiraishi N (2012) Adaptation of a spatially-explicit individual-based forest dynamics model SORTIE-ND to conifer-broadleaved mixed stands in the University of Tokyo Hokkaido Forest. [*Formath*](https://www.jstage.jst.go.jp/article/formath/11/0/11_1/_article){target="_blank"} 11: 1–26.
+
+* 尾張敏章、福士憲司、広川俊英、井上崇、江口由典、**辰巳晋一**、美濃羽靖、中島徹（2012）林分施業法の選木技術：ウダイカンバ二次林の事例. 北方森林研究 60: 77–80.
+
+* **Tatsumi S**, Owari T, Yamamoto H, Shiraishi N (2010) Forty-two years of stand structure development in a natural sub-boreal forest under selection system in central Hokkaido, Japan. *The International Forestry Review* 12(5): 87.
+
+* **辰巳晋一**、尾張敏章、山本博一、白石則彦（2010）混交林択伐施業による42年間の林分構造の変化：東京大学北海道演習林の事例. 関東森林研究 61: 53–56.
+
+---
+
+### 履歴書
+
+##### 職歴
+* 2024年度–現在: 京都大学大学院 農学研究科 准教授
+* 2020–2023年度: 国立研究開発法人 森林総合研究所 北海道支所 主任研究員
+* 2019–2020年度: トロント大学 生物科学研究科 JSPS海外特別研究員
+* 2018–2019年度: 国立研究開発法人 森林総合研究所 北海道支所 研究員
+* 2017–2017年度: トロント大学 生物科学研究科 訪問研究員
+* 2016–2016年度: 東フィンランド大学 森林科学科 訪問研究員
+* 2015–2017年度: 横浜国立大学大学院 環境情報研究院 JSPS特別研究員 PD
+* 2014–2014年度: 横浜国立大学大学院 環境情報研究院 技術補佐員
+* 2012–2013年度: 東京大学大学院 農学生命科学研究科 JSPS特別研究員 DC2
+
+##### 学歴
+* 2011–2013年度: 東京大学大学院 農学生命科学研究科 森林科学専攻 博士課程
+* 2009–2010年度: 東京大学大学院 農学生命科学研究科 森林科学専攻 修士課程
+* 2005–2008年度: 東京農工大学 農学部 地域生態システム学科
+
+##### 研究助成
+* 2026–2028年度: JSPS 科学研究費助成事業 挑戦的研究（萌芽）（代表）
+* 2025–2028年度: JSPS 科学研究費助成事業 基盤研究 B（代表）
+* 2025–2027年度: SMBC森林GXプロジェクト（分担）
+* 2024–2025年度: JSPS 科学研究費助成事業 学術変革領域研究（A）公募研究（個人）
+* 2022–2023年度: 林野庁 調査委託事業（分担）
+* 2021–2024年度: JSPS 科学研究費助成事業 若手研究（個人）
+* 2021–2021年度: スマート林業EZOモデル構築協議会 受託研究（分担）
+* 2019–2020年度: JSPS 海外特別研究員（個人）
+* 2018–2021年度: スウェーデン科学評議会 Vetenskapsrådet 研究費（分担）
+* 2016–2018年度: JSPS 科学研究費助成事業 若手研究 B（個人）
+* 2016–2016年度: プロ・ナトゥーラ・ファンド国内研究助成 （分担）
+* 2016–2016年度: スカンジナビア・ニッポン ササカワ財団研究助成（代表）
+* 2015–2017年度: JSPS 科学研究費助成事業 特別研究員奨励費 PD（個人）
+* 2014–2014年度: クリタ水・環境科学振興財団 研究助成（分担）
+* 2012–2013年度: JSPS 科学研究費助成事業 特別研究員奨励費 DC2（個人）
+* 2012–2013年度: 東京大学 AGS研究助成（分担）
+* 2011–2011年度: 日本科学協会 笹川科学研究助成（個人）
+
+##### 賞罰
+* 2025: 農学会 日本農学進歩賞
+* 2020: トロント大学 生物科学研究科 Postdoc Paper of the Year 2019
+* 2018: 第65回 日本生態学会 Best English Presentation Award
+* 2018: 日本生態学会 Ecological Research Paper Award 2017
+* 2016: 2015年度 森林計画学会 黒岩菊郎記念研究奨励賞
+* 2014: 2013年度 東京大学大学院 農学生命科学研究科 研究科長賞（博士）
+* 2014: 第61回 日本生態学会 優秀ポスター賞
+* 2014: 2013年度 日本生態学会 北海道地区会 若手研究奨励賞
+* 2013: 第124回 日本森林学会 学生ポスター賞
+* 2012: 第123回 日本森林学会 学生ポスター賞
+* 2012: 平成23年度 日本科学協会 笹川科学研究奨励賞
+
+##### 委員
+* 2025年度–現在: 文部科学省 科学技術・学術政策研究所 専門調査員
+* 2025年度–現在: 日本森林学会 大会プログラム編成委員（植物生態部門）
+* 2025–2025年度: 日本生態学会 第73回大会実行委員会 会計補佐
+* 2023–現在: [*Journal of Ecology*](https://besjournals.onlinelibrary.wiley.com/journal/13652745){target="_blank"} 編集委員
+* 2023–2023年度: 森林計画学会 北海道地区代表理事
+* 2022–現在: [*Journal of Forest Research*](https://www.tandfonline.com/journals/tjfr20){target="_blank"} 編集委員
+* 2020–現在: [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/journal/26888319){target="_blank"} 編集委員
+* 2020–2022年度: 日本生態学会 英語発表部会委員（21年度 副部会長, 22年度 部会長）
+* 2011–2011年度: 第32回 関東生態学関係修論発表会委員
+
+##### 査読経験
 * Annals of Forest Science, Biological Conservation, Biological Invasions, Biological Reviews, Canadian Journal of Forest Research (2), Conservation Science and Practice (4), Diversity and Distributions, Ecography (3), Ecological Processes, Ecological Research (4), Ecology (4), Ecology and Evolution, Ecology Letters (5), Ecosphere, Forest Ecology and Management (4), Forestry Chronicle, Forests (4), Frontiers in Plant Science, Functional Ecology, Global Ecology and Biogeography, Journal of Animal Ecology, Journal of Applied Ecology (3), Journal of Biogeography (2), Journal of Ecology, Journal of Forest Research (2), Journal of Mountain Science, Journal of Plant Research (2), Journal of Sustainable Forestry, Journal of Vegetation Science (5), Landscape and Ecological Engineering, Methods in Ecology and Evolution, Nature Climate Change, Nature Ecology & Evolution, Oecologia (3), Plos One, Population Ecology, Progress in Earth and Planetary Science, Scientific Data, Scientific Reports (2), Swiss National Science Foundation, Trees Structure and Function, 森林計画学会誌 (3), 北方森林研究
 
-* Review-publication ratio: **5.64** (= 79 manuscripts reviewed / 14 first-author papers)
+* 査読－出版比：**5.64**（＝査読した原稿79部 / 出版した筆頭論文14本）
 

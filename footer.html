@@ -1,0 +1,15 @@
+<script>
+(function(){
+  function addTop(){
+    if (typeof jQuery === "undefined") { setTimeout(addTop, 100); return; }
+    var $ul = jQuery('#TOC ul').first();
+    if (!$ul.length) { setTimeout(addTop, 100); return; }
+    if (jQuery('#toc-top-link').length) return;
+    var $li = jQuery('<li class="tocify-item list-group-item" id="toc-top-link" style="cursor:pointer">Top</li>');
+    $li.on('click', function(){ jQuery('html, body').animate({scrollTop: 0}, 300); });
+    $ul.prepend($li);
+  }
+  if (document.readyState !== "loading") { setTimeout(addTop, 0); }
+  else { document.addEventListener("DOMContentLoaded", function(){ setTimeout(addTop, 0); }); }
+})();
+</script>

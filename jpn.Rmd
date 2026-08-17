@@ -20,7 +20,8 @@ knitr::include_graphics("image/img1.png")
 &emsp; `r icons::fontawesome("briefcase")` &thinsp; 京都大学 大学院農学研究科 森林科学専攻 [森林生態学研究室](https://www.rfecol.kais.kyoto-u.ac.jp/){target="_blank"} 准教授  
 &emsp; `r icons::fontawesome("envelope")` &thinsp; community.ecologist at gmail dot com  
 
-専門は群集生態学です。樹木群集の多種共存と生態系機能について、長期モニタリング・操作実験・理論的アプローチを組み合わせて研究しています。基礎科学としての群集生態学に立脚して、「森林伐採や気候変動などの人為的要因が多種共存に与える影響」や「生物多様性と森林生産性の関係」といった、森林管理への応用を見据えたテーマに取り組んでいます。\
+専門は群集生態学です。樹木群集の多種共存と生態系機能について、長期モニタリング・操作実験・理論的アプローチを組み合わせて研究しています。基礎科学としての群集生態学に立脚して、「森林伐採や気候変動などの人為的要因が多種共存に与える影響」や「生物多様性と森林生産性の関係」といった、森林管理への応用を見据えたテーマに取り組んでいます。主な調査地は冷温帯林ですが、近年はマングローブなど他の生態系にも研究対象を広げています。大学院進学や共同研究にご興味のある方は、お気軽にご連絡ください。\
+キーワード：生物多様性、生態系機能、森林管理、気候変動、群集動態、統計モデリング、混植実験、DNAメタバーコーディング、リモートセンシング\
 Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}をご覧ください。
 
 <div style="text-align: center;">
@@ -48,23 +49,23 @@ Research Mapは[こちら](https://researchmap.jp/shin1.ta23){target="_blank"}�
 
 &emsp;2026
 
-* Ma W, Hu J, Luo W, Lü X, Liang X, Zhang B, Yu Q, Han X, **Tatsumi S**, Wang Z, Hautier Y (2026) Demographic and growth dynamics jointly shape grassland productivity under extreme drought. [*Global Change Biology*](https://onlinelibrary.wiley.com/doi/10.1111/gcb.71016){target="_blank"} 32(7): e71016.
+* Ma W, Hu J, Luo W, Lü X, Liang X, Zhang B, Yu Q, Han X, **Tatsumi S**, Wang Z, Hautier Y (2026) Demographic and growth dynamics jointly shape grassland productivity under extreme drought. [*Global Change Biology*](https://onlinelibrary.wiley.com/doi/10.1111/gcb.71016){target="_blank"} 32(7): e71016. [`r icons::fontawesome("file-pdf")`](pdf/Ma_2026_GlobChangeBiol.pdf){target="_blank"}
 
-* Yao J, Li X, **Tatsumi S**, Ding Y, Huang J, Xu Y, Zhang Z, Long W, Zang R (2026) Scale dependence of woody plant β-diversity in a tropical rainforest metacommunity. [*Ecology and Evolution*](https://onlinelibrary.wiley.com/doi/10.1002/ece3.74022){target="_blank"} 16(7): e74022.
+* Yao J, Li X, **Tatsumi S**, Ding Y, Huang J, Xu Y, Zhang Z, Long W, Zang R (2026) Scale dependence of woody plant β-diversity in a tropical rainforest metacommunity. [*Ecology and Evolution*](https://onlinelibrary.wiley.com/doi/10.1002/ece3.74022){target="_blank"} 16(7): e74022. [`r icons::fontawesome("file-pdf")`](pdf/Yao_2026_EcolEvol.pdf){target="_blank"}
 
 &emsp;2025
 
-* Iritani R, Ontiveros VJ, Alonso D, Capitán JA, Godsoe W, **Tatsumi S** (2025) Jaccard dissimilarity in stochastic community models based on the species-independence assumption. [*Ecography*](https://nsojournals.onlinelibrary.wiley.com/doi/10.1002/ecog.07737){target="_blank"} 2025(8): e07737.
+* Iritani R, Ontiveros VJ, Alonso D, Capitán JA, Godsoe W, **Tatsumi S** (2025) Jaccard dissimilarity in stochastic community models based on the species-independence assumption. [*Ecography*](https://nsojournals.onlinelibrary.wiley.com/doi/10.1002/ecog.07737){target="_blank"} 2025(8): e07737. [`r icons::fontawesome("file-pdf")`](pdf/Iritani_2025_Ecography.pdf){target="_blank"}
 
-* Hrdina M, Molina-Valero JA, Kuželka K, **Tatsumi S**, Yamaguchi K, Melichová Z, Mokroš M, Surový P (2025) Obtaining the highest quality from a low-cost mobile scanner: a comparison of several pipelines with a new scanning device. [*Remote Sensing*](https://www.mdpi.com/2072-4292/17/15/2564){target="_blank"} 17(15): 2564.
+* Hrdina M, Molina-Valero JA, Kuželka K, **Tatsumi S**, Yamaguchi K, Melichová Z, Mokroš M, Surový P (2025) Obtaining the highest quality from a low-cost mobile scanner: a comparison of several pipelines with a new scanning device. [*Remote Sensing*](https://www.mdpi.com/2072-4292/17/15/2564){target="_blank"} 17(15): 2564. [`r icons::fontawesome("file-pdf")`](pdf/Hrdina_2025_RomoteSens.pdf){target="_blank"}
 
-* Cadotte MW, **Tatsumi S** (2025) Uncovering the mechanisms underpinning divergent environmental change impacts on biodiversity and ecosystem functioning. [*Ecology*](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.70040){target="_blank"} 106(2): e70040.
+* Cadotte MW, **Tatsumi S** (2025) Uncovering the mechanisms underpinning divergent environmental change impacts on biodiversity and ecosystem functioning. [*Ecology*](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.70040){target="_blank"} 106(2): e70040. [`r icons::fontawesome("file-pdf")`](pdf/Cadotte_2025_Ecology.pdf){target="_blank"}
 
-* Oikawa N, Nakagawa Y, Owari T, **Tatsumi S**, Suzuki SN (2025) Utilising LiDAR-equipped iPhone in forestry: constructing 3D models and measuring tree sizes in a planting site. [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.12399){target="_blank"} 6(1): e12399.
+* Oikawa N, Nakagawa Y, Owari T, **Tatsumi S**, Suzuki SN (2025) Utilising LiDAR-equipped iPhone in forestry: constructing 3D models and measuring tree sizes in a planting site. [*Ecological Solutions and Evidence*](https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.12399){target="_blank"} 6(1): e12399. [`r icons::fontawesome("file-pdf")`](pdf/Oikawa_2025_EcolSolutEvid.pdf){target="_blank"}
 
 &emsp;2024
 
-* Barrilli GHC, **Tatsumi S**, De Biasi JB, Cruz ARS, de Oliveira TCT, Hostim-Silva M, Hackradt C, Félix-Hackradt FCF (2024) Simplified fish larval supply in coastal areas after a dam burst in Brazil. [*Marine Pollution Bulletin*](https://www.sciencedirect.com/science/article/pii/S0025326X24005927){target="_blank"} 205: 116615.
+* Barrilli GHC, **Tatsumi S**, De Biasi JB, Cruz ARS, de Oliveira TCT, Hostim-Silva M, Hackradt C, Félix-Hackradt FCF (2024) Simplified fish larval supply in coastal areas after a dam burst in Brazil. [*Marine Pollution Bulletin*](https://www.sciencedirect.com/science/article/pii/S0025326X24005927){target="_blank"} 205: 116615. [`r icons::fontawesome("file-pdf")`](pdf/Barrilli_2024_MarPolutBull.pdf){target="_blank"}
 
 * Naka M, Masumoto S, Nishizawa K, Matsuoka S, **Tatsumi S**, Kobayashi Y, Suzuki KF, Xu X, Kawakami T, Katayama N, Makoto K, Okada K, Uchida M, Takagi K, Mori AS (2024) Long-term consequences on soil fungal community structure: monoculture planting and natural regeneration. [*Environmental Management*](https://link.springer.com/article/10.1007/s00267-023-01917-7){target="_blank"} 73(4): 777–787. [`r icons::fontawesome("file-pdf")`](pdf/Naka_2024_EnvironManage.pdf){target="_blank"}
 

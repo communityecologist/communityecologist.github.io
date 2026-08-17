@@ -10,4 +10,5 @@ output:
     theme: flatly
     includes:
       in_header: "header.html"
+      after_body: "footer.html"
 output_dir: "docs"
